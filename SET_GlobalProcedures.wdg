@@ -1,0 +1,161 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : SET_GlobalProcedures
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x171898910108f3b7
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAABPOo5wfzL5PtlmH9g6pVlcqG1md+uM4GM8B/k/aVja5R6ZseBzxTGWZbo12UeE8bWym5Rl91AKrNq9wTYnFyamg2lAMw==
+  type_code : 31
+  p_codes : []
+  procedures :
+   -
+     name : CallContact
+     procedure_id : 1664247810868507591
+     type_code : 15
+     code : |1+
+      // Summary: Procedure that manages the call to a contact
+      // Syntax:
+      //CallContact (<pContact> is Contact)
+      //
+      // Parameters:
+      //	pContact (Contact): The contact
+      // Return value:
+      // 	None
+      
+      PROCEDURE CallContact(pContact is a Contact)
+      
+      // Retrieve the numbers
+      SWITCH pContact.phone..Occurrence
+      	CASE 0
+      		Error("No number was saved for this contact.")
+      		RETURN
+      	CASE 1
+      		tapiDialerCall(pContact.phone[1]..Number)
+      	OTHER CASE
+      		OpenMobileWindow(WIN_Call,pContact)
+      END
+      
+     type : 458752
+   -
+     name : SendEmail
+     procedure_id : 1664247810868573127
+     type_code : 15
+     code : |1+
+      // Summary: Procedure that manages the outgoing emails
+      // Syntax:
+      //SendEmail (<pContact> is Contact)
+      //
+      PROCEDURE SendEmail(pContact is a Contact)
+      
+      // Start the email client
+      IF pContact.Email..Occurrence > 0 THEN
+      	Email.NbRecipient = 1
+      	Email.Recipient[1] = pContact.Email[1]..Address
+      	EmailRunApp()
+      ELSE
+      	Error("This contact has no email address.")
+      END
+      
+     type : 458752
+   -
+     name : SendSMS
+     procedure_id : 1664247810868638663
+     type_code : 15
+     code : |1+
+      // Summary: Procedure that manage the outgoing SMSs
+      // Syntax:
+      //SendSMS (<pContact> is Contact)
+      //
+      // Parameters:
+      //	pContact (Contact): The contact
+      // Return value:
+      // 	None
+      //
+      PROCEDURE SendSMS(pContact is a Contact)
+      
+      //Open the window for sending SMSs and pass the identifier of the contact selected in the list in parameter
+      OpenMobileWindow(WIN_SendSMS, pContact)
+      
+      
+     type : 458752
+   -
+     name : ModifyContact
+     procedure_id : 1664247810868704199
+     type_code : 15
+     code : |1+
+      // Summary: Procedure that manages the request for modifying a contact
+      // Syntax:
+      //ModifyContact (<pContact> is Contact)
+      //
+      // Parameters:
+      //	pContact (Contact): The contact
+      // Return value:
+      // 	None
+      //
+      PROCEDURE ModifyContact(pContact is a Contact)
+      
+      // Open the contact form in edit
+      ContactEdit(pContact)
+      
+      
+     type : 458752
+   -
+     name : DeleteContact
+     internal_properties : CAAAAAgAAAAAaLG0fj3J/5jraAY3rPuABVgzOjgBOhUYeHwU19OO0yLaVo5NIuCYqujxgjoTi338JTc6zd1FTMdKBhwsEjLI69+47cSJJV1otymRT7sfm6Tv9MqK/a499ZqlpWKD17ZEk6Qw8fTch4+Cvb6nYabT6rjOQ912PVIPzIuTUNB8qRg6fOCdyvfimPXHZSBE3df3O6+mabFvp15NQ0sIl2/Bh2mGHvbj
+     procedure_id : 1664247810868769735
+     type_code : 15
+     code : |1+
+      // Summary: procedure that manages the deletion of a contact
+      // Syntax:
+      //DeleteContact (<pContact> is Contact)
+      //
+      // Parameters:
+      //	pContact (Contact): The contact
+      // Return value:
+      // 	None
+      //
+      PROCEDURE DeleteContact(pContact is a Contact)
+      
+      //1: &Delete
+      //2: Do&n't delete
+      sText is a string 
+      if pContact.LastName = "" _and_ pContact.FirstName = "" THEN
+      	sText = "Unnamed"
+      else
+      	sText = pContact.LastName + " " + pContact.FirstName
+      END
+      SWITCH YesNo(No,StringBuild( "Do you want to delete the '%1' contact?", sText))
+      
+      	// &Delete
+      	CASE Yes :
+      		ContactDelete(pContact)
+      		
+      	// Do&n't delete
+      	CASE No :
+      		//No action
+      END
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_ProcéduresGlobales1
+resources :
+ string_res :
+  identifier : 0x1ce5644800185e20
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      en-GB : Error while starting the email client.
+     index : 0
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

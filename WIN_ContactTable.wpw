@@ -1,0 +1,410 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_ContactTable
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_ContactTable
+ identifier : 0x2718988e06e9e9a5
+ internal_properties : CAAAAAgAAACK0vkzSYK4GfZ3Lo79ek3j8DafrrwXDvo6ty6geZtrk3atB5dqYQpLgDWWEBil+1xbjhd4HQXSo/lEhBHSVZP4HUU7UMWc3znccXVxLHS3eeWRouJDHxLG4Uy4e+4HqfCM0AxcgLlV2C1sn2O9luOuvp6wkcqRGGEDGdmqZgziVJHs36EUjkr884Qm6RaWicbKECB9UYL6vtiHfUUYfOvZImT8ZBcr+bj0bTsZvVGY0YMnGEHE1TxbTKDbsWBcpuCsEbT6xgAln4lwenTI9FsAZJHbw4FtCTeyeoqJK46PK2xknV6P3Zw+Gi6/tyeCQ8v9kSXpaUhJ+sjQ8rPTyxkFWvVUsIrJR/mM7FhUkReIeaCRvxE6xzvHqxfI/VrHXneY7kn0p9K9yx02esDH1O4vHaEJFw4Kdf5eOP06j8hkrYkOOf5vIdgHmJts12R5iYzptI2uWzUArIF/nf/kVQgl6bAHcSt3KVqrexI0Ly4vD+1FSF+x/XjtOXNOmNHXl21US2cupsdUf0fBB+i7JZAOJ1RSuKlPJoxt+5rrua1aK+VMAm8zx+izgge2tiaINjd4g1pfLu6dkadnfymkCugICTUcmSQQQILvomsZxAmM2F7Fhxwv84IuxnE+7rQ0S2gSATxsaW1zdlmdgNJIohOwciyhn2EtWLyRaYdOE6a9o6+Sa7UTyztwXfvdRssaiKgpdqyRPG8uMS/aybWm6j9uKhwPTyrjL1HPVwd/hkPZgNG3WoK3B3wCTPDx+MRPS0eCq8cJNHbx
+ properties :
+  width : 320
+  height : 407
+  heightMin : 471
+ controls :
+  -
+    name : LOOP_CONTACTS
+    identifier : 0x2718988e06f3e9a5
+    internal_properties : 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
+    properties :
+     width : 322
+     height : 407
+    controls :
+     -
+       name : STC_NAME
+       identifier : 0x2718988e06f6e9a5
+       internal_properties : CAAAAAgAAABpfyAKM3NUj9UIzA+gj3RqjJ+knLIWSo+shGhiihOyI6k8qlUSRX3SAz/t9lgSNQcIJWIRdbrYD8O2o8PIlKKXGIf7YSqYx+mDAON1HYxaaUfF9wIapawA5UZr6nIfQpDaoQ9f+vsyvxJWv0ibJvn7Mrt+IW9hDccS/czOvgDb7qJn3esNxa7Gur4VwDuMJ+uetAAVjmDvxjoJl3ZqgvRdmYbBWLo04/mFQywkab6kdZUxQvoUAWuAyyx+xN0fLDE71I3gjnoCG17DUSSUuORSU97OfK+2aXq13/JtdcDfowM6mHbWkxgz3hOOLlc5ihBjQ8BQfBOolj46cxxXT1BbhMSTchC1SNYwhdjs/HlPPgF1M3lqUMlO81OnKkGepBwHXhCj0cxazl26FEMVq5de92Qxz+wG57VtwpZOdAiT5EfGpq8xjtOyp05fIAHfEYUumUGkSFyu2CcAT+2Kijaj88hiEQ==
+       properties :
+        x : 15
+        y : 13
+        width : 289
+        height : 23
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+    columns :
+     -
+       name : ATT_Subscript
+       identifier : 0x2718988e06f4e9a5
+       internal_properties : CAAAAAgAAADufAI4qEYcRpGsmI0olvk3lVNz1Dp7ASsImau3K19wNAEQwnx6+RR96kX7pkpXyCh47pkxCzgVKmG8H6yqSB7E9rXGL1Zp6fKOlgZaOIKw8dC0ez1PABg8Oqhiiqy/jGcAQFdtlfFiQDo=
+       type : 3
+       content :
+        identifier : 0x2557a385021c5e0e
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_NAME
+       identifier : 0x2718988e06f5e9a5
+       internal_properties : CAAAAAgAAADOpd2D2/13QD8PxdJgbhlS3u80L1Bbx4bo1BMdVzM5zptA+6Il2u7TVYqgdZqIkk4tqkA+ZrVBikidZhHt9d2hUCCaTsD0s3lrg7v/qzoexgrSiLrhlsus2/iiEL3pdVxl/ilGnd9LsbTvFBZmQWJiCe+o8me7YscV30G2PVo=
+       type : 3
+       content :
+        identifier : 0x2557a385021e5e0e
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+    type : 30
+    code_elements :
+     type_code : 42
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        code : |1-
+         
+        type : 21
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        code : |1-
+         
+         ExecuteProcess(BTN_Menu_contacts,trtClick)
+        type : 33
+      -
+        code : |1-
+         
+         // Refreshes the list of contacts
+         RefreshContactList()
+        type : 230
+      -
+        type : 241
+        enabled : false
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+      -
+        type : 224
+        enabled : false
+      -
+        type : 66051
+  -
+    name : BTN_Menu_contacts
+    identifier : 0x2718988e06f7e9a5
+    internal_properties : CAAAAAgAAADNIQ5++q/43mg1mFTvHPwbdpF9M6EVrc8dbvrqFhx6N/iamLOdjcTkzuU3AbwuQVyyDLt69cbRIqPwFqfEK9S0p94Brsg+imucwiY+N3k/L9DfsBlUIXOlxJVrQSveFKAXvYpcGnhNoGEOsdjn/7qAA5zUg40H0/gJ520blMICc06Vqdvl1wij/7kFcqmv2HX5z9S51hv9NHqSb3lStcsyg32VOoJQfu8/+Y1ZIIDsFHoSGR/yfBmkVom9OMLm+Nm5ppRpnQcrYsFnAvisvUGPtiWaegrBBCnLJ7KepJ0cAbzfolPv+NXWRMi33wNJ47wkDTOatcBWjzhWcC9eTKi15bIdHq4e8MuQMz7mipj3SKcqAdRy292GE1Q+mE4lxxsr1yoE4FeTk8Lqe1lHjOaW9OX5GqtxCTby9d+M4IIYqgo2e9vsO61YoU2gwgukMhGFwYUPjFC1I64hEVcOuF6eIMkY8MvOGuaAkpcsQYOfMEAt9owvJ3vRuYz0SqZIUEoR2uhZWvCG7bRtSGGwtW6ZqOCveScbQvuCKxd65SbV9WY5wNW9FEzn1y0ZHkEfcLdfNoG092gBRQ0WDa3MxNxY4BL5i3jGpCiqO5q3rmV/2tm5NUygWzIOYu9mJwG9oexiVpWTvzZwj5ZgC6bafHzDWjpgff55W4J/hdgQVPArt3AWYcVzWoWJIVA/utKayZVkqg0vcOXzcU8pHYsXCzidtQHZ7ZEmsroHpjVEnwvw2RK4mdAwDqrrlL98MWRDx7rCUxAlrO4afd8JFkwg8DtgsI6TonL3A51vVLbdBHz93FXuuK4bejJDUyxMJsnTqfQK0mFgE2S+haOfmOe0vTi2+S2vR3nsVs02/Gkzt/9oXN7ImgOsP0vAJA6Ko6hA57trgstYOE6D1JIl9LsU7E3OQwtCYbScvPT8SZqF1G72M+fTl6j3HSuqPWJyxVG+BRKnFigbM5wDjnR6dU1oWN+NZeMAmygP6Y9l
+    properties :
+     x : -191
+     y : 41
+     width : 160
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         OpenPopupMenu()
+        type : 18
+      -
+        type : 161
+        enabled : false
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2718988e0701e9a5
+  internal_properties : CAAAAAgAAACquBuxfqPG+JgCqVRir/IvbKNMaXcliKjoCglbWUaPb3ilYfQYlzy7DbDW91kIwQ4Jj62f+5uvlkGt8+6z+Nc1v88GkeF/iCSJnAiRvNIh00Lbgm7GN6e105XzQShWrtlJZeLWZ5GE2boXMg7XSyrSyMdP8vgJYaaF49VTU4jP6S8iHBnxxZv5EShxCc68SlF8O/7zHY+5C2ZiZe4CLEgKF/1aavogFDGYFhtHNRDyUkhBFxnH0l8Jg1rSKv/J+VDhq3uxV8+NIQxTvUDIWAD4TH61PSmosjg/XN5janvAI3/7
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      code : |1-
+       
+       HourGlass(True)
+       
+       //Update the list with the result of the new search according to the criterion entered in the search control
+       RefreshContactList(ACTB_ActionBar..SearchValue)
+       
+       HourGlass(False)
+      type : 240
+ menu :
+  name : _Menu
+  identifier : 0x2718988e06f8e9a5
+  internal_properties : CAAAAAgAAADgMVTORwj2Mt8z/R5WRL0mTVIMDO11ij5YdBwcO3ZAw8tWdEBL95DgWGGgMGBRKql5dANp5Vg/qpNyJvJQ8sIrr6GzC+masJIwyV5P7DpW0go2kGsf4EvdW1eqlu6V7I5EHVrMjd02cTaXwP0dbd1DSbdsd/Wxk0ScMGI7Z0eDsGOMLRfieoTYskOjcLtA7tgFoR24z+3d3zH3Bloaoqj6XKllvOzqHQUKs5ikiJtsiZpXF9leDIYykRzjnC4k4qQVjthAFpugw+diG+HfnEMv+L/rU3DRjlIiDq+0aeUP
+  options :
+   -
+     name : OPT_Search
+     identifier : 0x2718988e06f9e9a5
+     internal_properties : CAAAAAgAAACaKEgXAT3KjqDDZZJB9TKcf9odF7GN5e1jrwDZgIi7I0oK5WBWEBxnTI2GUXDR19B12FlAkBb705vibDc4Sdp8nuKRoaoHQVBgFvdIytCXMqXoDWZ37bu3ojTKuFsqlA0miP+2Gb0zUos0Hek8l5kigBUdKbhbIhR6muEV3ob7oHrf+OgskK8IVektofGNcwNT0T6Wa8OmQD8FwsDo/fb2qiF6us2Ku+fJcOp3DuBJKmnFtXNpjM99i45VDPGtTi7N+zGeAZt3fneigjcAXiDFZlMz9jA2UWjvgFum0UhmAaBwzjLuovU=
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1-
+          
+          ActionBarSearchVisible(True,"Find a contact...")
+         type : 32
+   -
+     name : OPT_New
+     identifier : 0x2718988e06fae9a5
+     internal_properties : CAAAAAgAAAAMuhYIXo5VB140bhdP5/v6aOjpgrxsDRL3SOyBkfVWKguFkvIU6DZ/sPnARsY2tX+xmvGoPZJSnod94BW9z1Dlk1hF+fyafSmk4oM1j3pCtnnMzb3VDISSIU26wx0iD4zn+KlU07023BgL7+jAiIlFqT2+8gXGnFb7fDZ+WBnGde8LU+YMu9i+OEmFu6+iJNoBGuGu0WGxFgg1Jm1kw9o5irxnouakMyS+papk2SkmAHvdzn4026BRH+zhBWhzPYjuy6Sqyvt/Wuh8nYV3U9biKpnOaCNnuNM6/lxrUlxxVH/RAvP55g==
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1-
+          
+          OpenMobileWindow(WIN_NewContact)
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ popup_menus :
+  -
+    name : MENU_RightClickLOOP
+    identifier : 0x2718988e06fbe9a5
+    internal_properties : CAAAAAgAAAC4MoXnZhUMwNI+M7azCBe+L+iymZZXHRhcVVKSZ339/9O98S2pA/XiI4UjwuG0oz2DJyc7GsgB5X5Lx2akmYeoYRFXvM887rlAd1rOCDmULONOns8AjB/NLiqEnv5LGgg5pd3YnC+pl4hDPI+P/mRkeP/BvCPSArw0fR0yVqnOstxusKVpzmnWA1wC0bo0J6Cad7i8RCdv39iQPK10JYAQAG0UQ7tyrygNam7wwqx1+bq8wnZt3iRkPWzyL3W3q3A9zGgL01WqrsQOQE61feCYBGYPXiZu+oBxhuTaYjzCZ3YCvecrJJdjJYM5Ag6HjrgDFxSWOyZkrUn0CfpB0qJx0LnsMRjUMwZJYQKRiPLOYQtX63DpEru+TtdifQ==
+    options :
+     -
+       name : OPT_Call
+       identifier : 0x2718988e06fce9a5
+       internal_properties : CAAAAAgAAAC+620lF39i9bg8A5RBb8FNnNGDqBbjv43FQzQvyJkqw9wU6/MDj9/ytUa18Qj2oom/U3McB4JHWgZu3Vzc4Ob3/vdQi0fALNutd9/vwlcDazgoKubU1WLB0n5aDiCVnGm3gobvcewgGVcovy2bCVl8t06Vr7PZvCyDEo2L7eJfMbDmOLhSY7rwYaAVZOoG2Nh5bADExrZr8UE1YuQw6MaC/nKiEIm6yryoj4I/3p5DJx0sa2V3QTTba5b7/8wTMUGcsWkzZY+0iFzv0qbKl54Tq9sEhknbRgb3q/MGEhPxqtbfonPabZe65iowWcmcP++Vxu+PTZe4Y1OuNT8D0rmcRt068DC6Fak+cQ9cbWOVAaKxpAGd+12dUJW4w8VWRLorLw==
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            
+            CallContact(garrContacts[ATT_Subscript])
+           type : 32
+     -
+       name : OPT_SendSMS
+       identifier : 0x2718988e06fde9a5
+       internal_properties : CAAAAAgAAABkyju4D+I8qQQ1GE1ECE9uoeR6UvWPpMukQE5b0ML3LUOsycrxIktLW8nwOBrj9S+fi7C9keaQABoGbMCroGFLIxarAC/lJfWqi4kpaluXXv6Hm5vfv6qoP3HOze3mc+2mO22PW+2+pKwcBTNViPTh7Xslgr/bgxw3lKiCkMLnylCPwfnm9A3A6xlQqHyhFo3hscz/FoFTllo09dRx+G3CCey/Y7AYiRW1ZAxFXkMp4QqRjFwwBHcSRNbh+H5jCQAs/Tzejou7m//tP6fgCnKXBdZmkeyLmQclBub3RWPPb6tPOpuwTGWtDK7PUJJsL6urN3d+Olm/7Rd5NbcEAfSvR5ddEleFDxcMMEjuKedwqb3rnFTFBZq1nYo1ZsCp4uQ5FwFwe2yAMHxDK13fyA==
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            
+            SendSMS(garrContacts[ATT_Subscript])
+           type : 32
+     -
+       name : OPT_SendEmail
+       identifier : 0x2718988e06fee9a5
+       internal_properties : CAAAAAgAAAAw0MLHJ/qPSNuNhRiFrfPd29ZfPf16rxGHVuyfBgp78gHCQSKhOnt5D+9dtxaUoZkJ5DQuJY0OuHcqqFUcdS9ksXcxDbiAawxxQaX5Ayy8OHMQsnDQWwXMyLf7tmMstcXmvsXvbccNXkKipOYPJ1hHsbPBufpdU+0/GLuHT9WejeoGrs4YqjNyZAPlxCNzfg+uI95BJ0LMUqbZTrlDG2/CjCuxLRvpkL6C8Ty/k64lv5V+OxS3kGZHpQy2Yrbp26qTqnQB4w0DE2mToUJGI0B9RQFIZEJamLCDQwhEnLFzFKr/vmeTSCFNnvzm2l8uiWOMFPuGPxlfmuzvTlMd84xr0rHHLvGzs0CHZN7kc2HfWOmfdp0o80KRbzNx5YdXTvvvBTrIJ6WnvXuL7Pc=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            
+            SendEmail(garrContacts[ATT_Subscript])
+           type : 32
+     -
+       name : OPT_Modify
+       identifier : 0x2718988e06ffe9a5
+       internal_properties : CAAAAAgAAACBfp/6iJJ4Oylysy4ub1ZPlh4X5pObiEGQIGRigQ2GDp365/lXUuQv5lnRVsKlybZGiY4rAmJfsOJ7cVs6vuqqfS4eteeAGYRo2cNlRQztj6zC0aGSYDxoVlR2g3VO2YjyuFvZ1IDej1dKE/3vukPfr+SP9U3cSM0ZkLx3SB1GlgOoF9SFolpbRJOCy/+Igma6FjoVgfDl6ry7s7F9S7VqS36ogIhUsKtPJrEbWUVsfRd1Uc3BAe4Yvll6ZSmQnutFUjrSKEiIbjk75LY1uQR4835TfHZ25PbBELEOy6hbtwfMnLt0pgYAcmzG9e+kKrBk7By0XbgVMm4xOPy0lvi6nmd/M0MvA8ue0pkKkQXQOqqetHLFpqDF4dUMf/b6jvjzJoT9nVrYeQ==
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            
+            ModifyContact(garrContacts[ATT_Subscript])
+           type : 32
+     -
+       name : OPT_Delete
+       identifier : 0x2718988e0700e9a5
+       internal_properties : CAAAAAgAAADCVEGBOsHwO2N6FaFiuVKipLPkPX5v7M1/vWsPCA2Qxccq1TWk6EpusFPM7r+QwQ7h+TUWp3z2cX1X/QCCuxEPWrTjCorC0YX7iQis5sJn53geZPJ4zO5PrxhE6smy7nmX4qYq2fSJEi17aEUo43hsGEnLR0ciR8gSilFynMheigsxhrgDEVX+C/MOAESCIwUjBvjGos6LnM04gC2K15hDyFiLSyi6ZYwxeGeajgY0/0OziwkIe7lFIGIonmfTFF0cDWYcxNixNSEtzaBIhQFKyb5q8zLjds9YyUTM9o23xo0bjwKJo+uNBKKm2W2lgL/buY0dwiduOM8x8pUYbvxCzxtsCG7U1FLkcZy6y4HhjKQpLZfLZbyLA7H3+1lGbcXVO3pT4w==
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            
+            DeleteContact(garrContacts[ATT_Subscript])
+            
+            // Refresh the display
+            RefreshContactList()
+           type : 32
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+ languages :
+  - en-GB
+ message_bar :
+  internal_properties : CAAAAAgAAABeQcJwK8+1X8W0dOaNY9NmWoL1BJhkqCp97hLengJJvwGeczFGuHt/eWkebRTvvcQyvnZRTkgPC6te7EF0n4ISZ90RB56HeY9/I8vvuGejpIgpeUj6aehNZhcf
+ code_elements :
+  internal_properties : CAAAAAgAAACvhiIr8gSQ5loUp83uTso9CuLc4dExenO6nYq0wt6wNhhy8DIKk+8xrI7GMink5ce8SLehbaZBjJVyvy60Arg=
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      
+      // The management of contacts does not operate in simulator mode
+      IF InSimulatorMode() _OR_ InAndroidEmulatorMode() THEN
+      	Info(<§@00000000000000000000§>,<§@00000000000000000002§>)
+      	Close()
+      END
+   -
+     code : |1-
+      
+      // Refreshes the list of contacts
+      RefreshContactList()
+     type : 34
+   -
+     code : |1-
+      
+      // Refreshes the list of contacts
+      RefreshContactList()
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 2
+   -
+     code : |1-
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+  procedures :
+   -
+     name : RefreshContactList
+     internal_properties : CAAAAAgAAAACrW4FD8g36VoaNy1K9tvib4RMnAIjzZ5IsmzVbfRSw7bb0QyxihDVwIiq/U5YqW6qkgbDFoiVszKO/YYcDpQhWRqIjAjIP85gaPLT2yBvFFW6KjxMAa5NK1hjQx7DU3q6Caoa0xTYEweS0Kd2krvmn+VpIKq3cgnyp9ZIBzPZBMACPLDZmAdyHrOVo4YO384QMZ9esdo=
+     procedure_id : 1664247797982423461
+     type_code : 14
+     code : |1+
+      // Summary: Refreshes the list of contacts
+      // Syntax:
+      //RefreshContactList ([<sSearch> is string])
+      //
+      PROCEDURE RefreshContactList(sFind is string = "")
+      
+      sNameToDisplay is string
+      nSubscript is int = 1
+      
+      LooperDeleteAll(LOOP_CONTACTS)
+      
+      // Retrieve the list of contacts
+      IF sFind <> "" THEN
+      	garrContacts = ContactList(Null,contactLastName,sFind)
+      ELSE
+      	garrContacts = ContactList(Null)
+      END
+      
+      // Add into the looper
+      FOR EACH tContact of garrContacts
+      	sNameToDisplay = tContact..DisplayedName
+      	IF sNameToDisplay ~= "" THEN
+      		IF tContact.Prénom <> "" OR tContact.Nom <> "" THEN
+      			sNameToDisplay = tContact.Prénom + [" "] + tContact.Nom		
+      		ELSE
+      			sNameToDisplay = "(Unnamed)"
+      		END
+      	END
+      	
+      	LooperAddLine(LOOP_CONTACTS,nSubscript, sNameToDisplay)	
+      	
+      	nSubscript++
+      END
+      
+      
+      LooperSort("LOOP_CONTACTS.ATT_NAME")
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAADeQcze1Ixqfwn6yOfjwsQ7IKxuiqMzbTygTLeVXFH8DB0WqXgSKvkzRoO0/Z27dfrh8D+BLYmMenjdtZezotw6hJf2mE4Gv6OctA==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x1cd12c7e000d424e
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      en-GB : The line is busy
+     index : 0
+   -
+     text :
+      en-GB : Connected
+     index : 1
+   -
+     text :
+      en-GB : Dialing in progress
+     index : 2
+   -
+     text :
+      en-GB : Dial tone
+     index : 3
+   -
+     text :
+      en-GB : The correspondent has hung up
+     index : 4
+   -
+     text :
+      en-GB : Searching for correspondent
+     index : 5
+   -
+     text :
+      en-GB : Ringing
+     index : 6
+   -
+     text :
+      en-GB : Error while starting the email client.
+     index : 7
+   -
+     text :
+      en-GB : Check whether the Google Navigation application is installed.
+     index : 8
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

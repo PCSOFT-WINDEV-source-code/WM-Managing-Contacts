@@ -1,0 +1,266 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_SendSMS
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_SendSMS
+ identifier : 0x27189890076befc0
+ internal_properties : CAAAAAgAAADzbev0UYRS9DU18Sem/fFJQtDAUgWiCleKB+kfmJYfuHlyaes9dM5nFjNWlxQA3KqNDcgFbSujczCIvrCXe4tGleJJGCz56bLZlS/Kv1rZDql3IZyS/tV9xQPO1k7pzDg1CpsNVVY08fJ4GfVo1opQ4OMR8zdL8YDhtEZpEcrQ02NUQ/oRMT3V0DfUql4pH0HqIUwIEw7f8lGwFgWNWwMHWXvdf0LQRm5iET2H5JW5bz3ifpO4v0UW/nCY/FCQjWroc+Lmx/lJFCZRJui6mYmJ8ZEPKPoQxCGtyzWDvmm831hQ4iTjoW5NR1ipoyVlKF2w/69HYeBN4c7iI8nO/45+34RWndPhPhjh9uiGLbbdzVtm6piKleIjR7KVR03CKbAPXF76shRgR2zG17eldIoa/q67U8IhEx2yiNEdxbbcTt5TY/3fRp/mYStE0kpvIUbTXj1iCN5ncOdRyod4y9CJ3cCFqV3MhxhGE56BW8pVhCzlTuqnGvThjNFAev6ofe7uBbb9KP6JCSI1Pwqeghmzgh5LOaRIETaU9iedWfptyKs71/9x1BODKJdKRxl8WrWU70rnW9bqzz4mwD5XDdxUEMgGUk8cxfCORzCz1xFyM7NV4tst5clZ6uyzxexWbGfTzaIqPgFMGw4KEYVMmZcAIU4l9YW2wX4IaWj8RkJ9urkI60LiPjWKkzEXURcwzBKomVIWLYym75zlsBF2FIJyHGzzxRJtkrHaUEnlowtm3e/lAVvfuUDZy9NCbMg=
+ properties :
+  width : 320
+  height : 407
+  heightMin : 471
+ controls :
+  -
+    name : COMBO_Numbers
+    identifier : 0x27189890076cefc0
+    internal_properties : CAAAAAgAAAD1znRErOHaF4Wk0Q5aokMane9nqkvsGdePQfG8eJz0x7USOQ5YMBSWQLXVrnaFCOeb5NMJ/ZeWbmz9ANXN8Xl2/PxV/LkHHVhOSC4+ZlaqMdnKKzQTEbPjx0AsF+7gchLL/JsBCnVlTLLiTvoA7TmSZjd8RFH6mXVemgoN3PqLOwKepw1Lxo8e3unjFBAy1eGDP1AHj4Tcz7YY7OHfPRfqMKtScgWbAwtpK0SR5MAzHdWB/bJTNeRxRYY+ZF7vzG4wrrxXTu2ia/kgDGNO2QqUAZmM6JqjKaE0jEcJsMfi4t7VMDt22pH4aVfNTux2bp/tASAYh2KqY32kCe56aNGTHr1iC7/evA9k6wC6qXlFqrms86vTbeiT3MpZS0ocrKLptmsJa79C12x/MTzwqq3E3tlp4MQNlXAKChXjtAlEp/QXmOE0omrQ1YXFUxPBqqZ32adTenu9utXfvZfsg+QdFaAYLqudklJvmkraoXsoDy9U+pWhlpcE6zSwugT04g/YvhK24O9pSTqI3XplC7B4BbIvJ5mrdYfB91zZ66oD+CuXxGm0dwWM5qcwHCuhcbSWLaiOFMDCq7eMqcQkSwAyLkK/mO4eLECyASp7gsris1j0JImFHHXj3X9TFBLTilcLn0Q4EC5sW5jiR8oagpo+khwHq4Bm/SjyW0FS1u2KCj8npN/hECgp+5/Xp9Uu1fI0f+w2WdkaTPTn+c6Gy0z4OIOJKBhK/YGNUMJlZfB2+9U5g6zcZR1QnayGqp+0pVPq3tgqhJJYRlnmi9qx/ka/WbFT/FwZqJ50BuUwTQicBpi2qVUTL9f5V7JAnC9cjuSWf53QvvXf7wGZIXIa2KYrnU23nIqHI/2vtAA5FtDYjh1ko3C87ciK2Ps5g6EiT+fnAg79WTZZ+SKhrOJaqrTe8Nv+C6QXSRZPbPTMhuNBuSaqTcS9mZ3dFTiC+wpAM8XvMPrp3fgclpC4zzNZY4HPdjJea/EJlCePWwijmcHlq+5sjwTgsRqEXvopOsvmCADP6lMN0zxRVrJOj+G9S+Pe+fJNdaC4PtWmRHQjRTeXAc+TVKo9QbiVi2F0FIMS4Zz6pbwdmFTFrUFLlLWVa6P10iIAF05XGvyo8QkXZtBKyXHCHiaXToAL1JTZ0uXtQKVags6PnbDzfBQEDz5RI2662yZa2aGvcDcq/lWLulULO2pBLhPxiOWqW2UwJQYixHG8yIK6Ul+rOwvz9BGE3vz6BHHxUazldegBZBfHYXN/ufMX3rPDXxYzQjNNE577bR8daBj/Bcci/XrzRGFowFzWU34CIBObzn+efHGR6h9MDzwYgjhIvV4AcASezXpt44hvatiG4ixR5LgsILFErbCR46wkT/zS+q7GQfYX99Gpfn3U1+4OHQQr/ScTKbCEvMyJWHOya10IQKOCqd/VC3lRRn+mct9FM5SQ585z5fmKbcVPEnLlPx9+K6BuyQSB2FKZochgtN1oMUjexM70A2fd0u306QYVjFcHj9RBwBfCRTUtU4jILsW7+NDxrWgqiBjm5hOdPniPGflrNTZrvYzPxnwN9TAnmkkRxIqY8RIZ3YFmmLytyDIqJTtwVLd7cLLhZ8Ufj3ENgiVY+NO8maJWhv/zzIaMnRgKI8CmfwCoHS/ekTPd8JbK9q92nm9jLbTItPgO9sRMqq0MMe3wesj/q9gePpORoPgBvP68Ru4dy5nQFQJOMq41ggk2OICZ+/sNaiszS68Jg/5ulhoxruzeJ6Emlirl2mmWZbIgbAUEnpw05u2IuM3tA2LhavIburNbzpWDTsTI3PLrV7NhDHtwE7mkZtI=
+    properties :
+     x : 16
+     y : 16
+     width : 288
+     height : 52
+    dropdown :
+     internal_properties : CAAAAAgAAADRGpN96qfsb1UzFBawOT9Cm7WkTyQh2B51hy5+NxAbd8XckOVXYfszf6EWGb1XgcorrEvmIrtwJoeygsh+hfht+OIz0IAsIGYEvK69jxqU4P5LxrA+6MeeG5CJYio09oLPxqR3rvgrz5n3OZRdFgjpRXnTaVhO/OUOsjwfdXDA39cY5mAlAzRarOyxlHf1dHAJICOnlQWbcXi4WrjeAig2vjshY7Iy/CCE+PUQIZqR3dQohAHE7YJnUBsLvaWRhmCthqk+p7cXMWW7XWASWSDtVTbwYhm80mp82q8Mi60Ug7s/a4DebmtMBz1kN37h12/uxgJK9/1QpVjXcVy6XA0JNZFY2/8mOpqJUOqd1oGyQ2yxtPQxk/PNckXT6G32zwc8ujKIQjakZGeH7v/I0+mrtNw0D5OAqaTQ6RqIsUp+vDDcoQnOUpR0fmf2lP0lQGRZjJjTx5UKBo+T9UIXd80eFe8YPo1fwYH4dsYlHjI3RlE7sk9S3OmGa3AwVPOg8QMDVy9qGE0TdQ72Bd7gEFk28yrhjS/pjoVCWG/Y9+YRtzWHlS7CSt7TJVJV2YUrcYp3a3jIVo2KtaOuG5qFn83r8nZN8qWsSAjeQWpHGOegSpyy2ROEZ536lcP34pWuYaMH9d+W4ZxTPdwgazKQ/E3hBnGNVlwXiKlCMwYmxCLqZOUG2hCD8yPhLs6W+2mTJsy4qH6UpkS6Lo0ckuj/t7LEVQ==
+     type : 7
+    type : 14
+    code_elements :
+     type_code : 23
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        type : 35
+        enabled : false
+      -
+        type : 17
+        enabled : false
+  -
+    name : STC_NbRemainingCharact
+    identifier : 0x27189890076defc0
+    internal_properties : CAAAAAgAAAB0DHd8NVEJMQwOizh/xgZEZebQ5M0G5ddovT8DQeNNs6omjmPIKlptZ9KOUyOa4/QLREOCqHD2NjD6eNba47u6LBJGV0cLz+1YybcvitQ/8UadQo8ndbmg1ghTCwSUOhEjUXdRBYjhxCoiyK9mPbncJUhcoRLpStykHBAJeYHH0QXjL7Sn+BZEMtlDe1FRdqcuTRDviSfc1+0s8MuEgx81nRK++C8HLLhct6hNAxaiUltN278/9OFxAstMCMKyvnYgDXrStzg56r4Y+sgwTO1Nc8FuA9PnhbBiBME5TNQ0uNq0eqjCzZOwJpKfjMOEkeURIoWh2SJQ4thn3YScIU2kL7a53VCTcsMNKmTWsYqSNfbIHDjYXlDcN49KM/R6WewjubGILLExHSm124q3KdWJ+V5gW6yRgxY42VstGKKTxrheJuifLKONT/Nty5WvjGk1vggVdR1c9YDALicmd0BPlwMPHHxuUvq3ynzbvnGjVI519Q==
+    properties :
+     x : 16
+     y : 77
+     width : 288
+     height : 22
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : EDT_MESSAGE
+    identifier : 0x27189890076eefc0
+    internal_properties : CAAAAAgAAAACYij3d8dTN0/rsUzrGXpvo2OTLzbAYJqdRGf0SWC/EbWU/hzA39cjgTWUntQlRwnRZQlrpssVhbPLYbFmwxPGHQNTVV3Ml4g0luTqgeq8KbcbWD7OI3XyzW5h3LRAHy3Yvv/UFiUr/w2B9+nhhGDU/KKddd+CiMdRGFJZc+78PIbfTX59Vn0YpUP+qi/0fPyy7hVyxqk/gD7m/nFhj3ej0e5uP6kEhk5Gy6v7TJTTNRVhBJa+3oEsY+cBXY4DJ4MnoRsEsZx7dwbVY/JniDcNsLj8QIgBxL7ZJbs4CyuDMSye6tekt1lb9lR33OakavNI+0KkriM5fU7DbdyfkWM5YwKybZYCTN0kG89BCQ1drsiiJYOGpircQADSDLUTx5VaASaTkuu2PDFiyb7sKYwfoTlk2ChHOBeN2nsxqy65IWdgtKMbMyQP/anB9wFEo5lIAPbQNoTWBUBSCHpK8nA/pJre2+q5+tv4K+hx+jDIQTdF2sSv2jw0SOCgR78Nc3dzXfT0DwWiEeAsufdHWsGaJ98h5wsbM0cVFA6oGaapYkgM3QqijyR9dyiw64tcCjtvjY7IlBda275q1wjE6iwYEhfuBF5BuLzQQofCUQAH4axtr9LEIxuJ6P8/UeKk9kJb6w+VPGgnqZQIWgXJkaR2eD4wNMwe28f6fN+uBC84t/13w3YjPpK64gOxBr7IWvU0GLg8r83kdNvrcH1L/99UXoUJ6Ah07Zw+B4hJid+U99XpNuZAX9IPZvo4AviWcKb96vmJTr0ZAV3WhylE8Vxop1NY2U8nebbTO2Z4C678pq0om/ASZjBu764ToTASwekYWz7/twCKk/lo3axcvsx+LMjNu3nN1GYl8UlwkdPIPsZd+W4cTkiE2Xwx+EPeaOmRT5z5PKGCU6WiHc9O8r/XlWaiUCAFJwSAligy1LsTTV95Gos4Rnufx6krsi5dgqBLTjk886Ttizs6ZH+cyMCX5lyJzEVDs44I8eKi/CEGPHNOAEqxqUrByzJV6RD6CMBSIrO+kd2br9TCaqpMzl8Z/ZZrmQvSOPWNVSUXl19ozlarHSofWaABdrbOfLaYiIjQr/y+QZQY/W1YQ5mtcKGmU7qD+AD98HQh0JglBH3ueBl74mc2Htj+HeorIdFOU/Mo+idBzq4HowuM0aqqImiwiPoul6AGo7WbMF5duEkj4t4yqgaNt9gSlKjdgD7d9G0KWpnkK0zAocGi2P6XqlP1gbGvRaimddigSA==
+    properties :
+     x : 16
+     y : 100
+     width : 288
+     height : 231
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1-
+         
+         //Display the number of characters that can be entered by the user 
+         STC_NbRemainingCharact = 160 - Length(MySelf) + " remaining characters"
+        type : 17
+  -
+    name : BTN_Send
+    identifier : 0x27189890076fefc0
+    internal_properties : CAAAAAgAAACdwJZr2Bp2YhZvsthqYwDIaspkwitm0NVctIEzuZYCJMEsLDGyfSmeMK79n+SfINpWIZc/0r+s595CXXhzQXwxPc9HJd6uJmKBcYoBnWhSayAiC9ib+hxKMpdAQW5jvttiN9V6ltpqSQm8+QkFr7WtaAs6TP0qc01NhS85eSnG35EtQA+uUmd0zbSfFRdQ+prxI8qwkfYHyYt4I567fSe4F9Y6tIfXO+Ru3Cc+WSYIyvU1CwBtmQbQz3H9mgilHgWj8WSznAtGPojmgbn66IzMdCj8XMIGST2MJSDAnDNBBcCJhq38aoL4qEw5Nn9Vuakmkr7HhNWDr9U0+2fNBS0Ku7d6KWStHqZI2zJB+7XR7Tyg/A0LIis/ZZwZxAgAcPKdBI7pnfnufQLz12HHd9abstw5642P4ZwvQgSZKSSfM6pCvKfrMXOemLpDHUYXSjZN4tBpxcvWScwEtlAvuoJGxVggywMeFnjQgyDJebOz4J5my1i8DfWIdlSTw5O8x+qEzbu0b8xIn5KmoghCI+0zB/dcb8IiB+kMEoX25DFzIS3XBqEXOFqfSRr5QJZrPm5YiPuFnLFKYwgl9f1HMWXBij3Nw/smBz/cOhZFlR4aXX8o3vYGWuN2h5phbPFfbDAvwLSrObG1TJ/0csGX9pct811eKR8W6beiDUZx6KgiXrwH8PUlXjaIrqhrKKCTXolcLy9/1zBYLDbceOCHybnPSLZwLQLknSS+dHEWHPqyqNKNuFl8tE1wCvU8+uKUPyyOfq+BWSIMH8OLjrElFKQpmmSPqDMMaNv/uzGpKiBX8Zzeecx/PjQXVU9HGh69wobPVf9+HcPze1OYfUZbE0RaHrGda4HHSk6zWgEpZkx8/KDpJ7CE3pswbN+ecyTWoLqZjCRtMt3FipvSudTGaIWTKIR004O0zXa/FuSBxf+ZMBeZHblPqRIDwSE/WA==
+    properties :
+     x : 16
+     y : 344
+     width : 288
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         IF COMBO_Numbers = "" THEN
+         	Error("Enter a phone number.")
+         	RETURN
+         	
+         ELSE
+         	NextTitle("Sending the SMS...")
+         	
+         	//Reset all the members of the Email structure to 0
+         	SMSReset()
+         	
+         	SMS.Message = EDT_MESSAGE
+         	SMS.Number = COMBO_Numbers[COMBO_Numbers]
+         	
+         	//Send the SMS
+         
+         <SI CibleExécution=Android>
+         		
+         		IF NOT SMSSend() THEN
+         			HourGlass(False)
+         			Error("This SMS has not been sent.")
+         		ELSE
+         			HourGlass(False)
+         			ToastDisplay("The SMS was successfully sent.")
+         			Close()
+         	END
+         	
+         <SINON SI CibleExécution=iOS>
+         	
+         	
+         	SMSRunApp()
+         	Close()
+         	
+         <FIN>
+         
+         	
+         	
+         	
+         	
+         END
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x271898900770efc0
+  internal_properties : CAAAAAgAAABKZJ15AWEosaLJWt5Ae1e3D3cElh7oYQ7XKWpZGnt3YfleuRrGXqJs2mBPhThywI7yFqZxioMgzF2VZBAUxNRbk/AxiATOd2UiG/jfasoQrn00ys4obskYXoXQXnLVyhuu/3ENR5wtkmzwuxunBH1tC6Nvxdida3g0WHXSqwX6LVRviajwyPgIBfBnEFH2BrN3MU0Pzhgg4FrcOHoxQy94S4+R45LXiIj49JZlFLf3JhqXROyzvz8y45YdwBRSjHhfxU5ugdaBWqzfjJDzsz1EagJAznr3XgILZw8broD4IYitHaQDzJCsjyCz5hOfS/NZGiM4oauU91vpc782W0e6OMVJbZX+URz1Bw19TkiJ3mlf4g1bUnczUK36Y8ODxLAAR3Rndbj6U+2gXnmUJ50=
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2a2505a900438be8
+  internal_properties : CAAAAAgAAADgMVTORwj2Mt8z/R5WRL0mTVIMDO11ij5YdBwcO3ZAw8tWdEBL95DgWGGgMGBRKql5dANp5Vg/qpNyJvJQ8sIrr6GzC+masJIwyV5P7DpW0go2kGsf4EvdW1eqlu6V7I5EHVrMjd02cTaXwP0dbd1DSbdsd/Wxk0ScMGI7Z0eDsGOMLRfieoTYskOjcLtA7tgFoR24z+3d3zH3Bloaoqj6XKllvOzqHQUKs5ikiJtsiZpXF9leDIYykRzjnC4k4qQVjthAFpugw+diG+HfnEMv+L/rU3DRjlIiDq+0aeUP
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAAN6TGHZFvIZNuzsgnNSVIrNA8yr9WbnCG+oDr2lgZ+zU290WKFNsf/RE2zfBdz4qkoETPjG45LbFgOh8610IbEna5I7qnjOpRdZ3drpH5fuKDw/4wM76jiMlB
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      
+      PROCEDURE WIN_SendSMS( gContact is a Contact )
+   -
+     code : |1+
+      
+      
+      FillNumbersAccordingToContact()
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+  procedures :
+   -
+     name : FillNumbersAccordingToContact
+     procedure_id : 1664247806572687296
+     type_code : 14
+     code : |1+
+      // Summary: Fills the combo box of numbers
+      // Syntax:
+      //FillNumbersAccordingToContact ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      
+      PROCEDURE FillNumbersAccordingToContact()
+      
+      // Deletes the former numbers
+      ListDeleteAll(COMBO_Numbers)
+      
+      FOR EACH tPhone of gContact.phone
+      	ListAdd(COMBO_Numbers,tPhone..Number)
+      END
+      
+      IF COMBO_Numbers..Occurrence > 0 THEN
+      	COMBO_Numbers = 1
+      ELSE
+      	Error("This contact has no phone number")
+      	Close()
+      END
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAADeQcze1Ixqfwn6yOfjwsQ7IKxuiqMzbTygTLeVXFH8DB0WqXgSKvkzRoO0/Z27dfrh8D+BLYmMenjdtZezotw6hJf2mE4Gv6OctA==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x1ce54cfa001357b8
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
